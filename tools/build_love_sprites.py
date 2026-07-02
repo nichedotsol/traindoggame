@@ -12,6 +12,7 @@ OUT = ROOT / "assets" / "love_sprites"
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import build_spritesheets as base  # noqa: E402
+import love_reference_art as art  # noqa: E402
 
 
 def slug(value: str) -> str:
@@ -71,7 +72,7 @@ def main() -> None:
         manifest[key] = data
 
     for action in ["idle", "move", "jump", "land", "duck", "hurt", "cheer", "board"]:
-        add("character", "train_dog", action, 92, 58, base.draw_train)
+        add("character", "train_dog", action, 92, 58, art.draw_train)
 
     for passenger in base.PASSENGERS:
         for action in ["idle", "walk", "wave", "board", "cheer"]:
@@ -79,7 +80,7 @@ def main() -> None:
 
     for collectible in ["gold_whistle", "silver_bone", "rainbow_ticket", "star_coin"]:
         for action in ["idle", "spin", "sparkle", "collect"]:
-            add("collectible", collectible, action, 30, 28, base.draw_collectible(collectible))
+            add("collectible", collectible, action, 30, 28, art.draw_collectible(collectible))
 
     for hazard in [
         "spiked_ball",
@@ -99,7 +100,7 @@ def main() -> None:
 
     for destination, color in base.PORTALS.items():
         for action in ["closed", "idle", "open", "activate"]:
-            add("portal", destination, action, 56, 70, base.draw_portal(color))
+            add("portal", destination, action, 56, 70, art.draw_portal(destination))
 
     for destination in base.DESTINATIONS:
         for action in [
@@ -112,11 +113,11 @@ def main() -> None:
             "arrival_flash",
             "danger_shake",
         ]:
-            add("environment", destination, action, 320, 180, base.draw_environment_scene(destination))
+            add("environment", destination, action, 320, 180, art.draw_environment(destination))
 
     for destination in base.PORTALS:
         for action in ["idle", "selected", "complete"]:
-            add("route_icon", destination, action, 48, 32, base.draw_destination_icon(destination))
+            add("route_icon", destination, action, 48, 32, art.draw_destination_icon(destination))
 
     for action in [
         "grass",
@@ -142,7 +143,7 @@ def main() -> None:
         add("fx", "smoke", action, 64, 40, base.draw_smoke)
 
     for action in ["full", "empty", "pulse", "gain", "lose"]:
-        add("hud", "heart", action, 32, 32, base.draw_ui_heart)
+        add("hud", "heart", action, 32, 32, art.draw_heart)
 
     for action in ["whistle", "bone", "coin", "space_button", "route_marker"]:
         add("hud", "meter", action, 64, 24, base.draw_ui_meter)
