@@ -37,8 +37,8 @@ if (-not $files) {
 foreach ($file in $files) {
   $pngName = [System.IO.Path]::GetFileNameWithoutExtension($file.Name) + ".png"
   $dest = Join-Path $outputPath.Path $pngName
-  & $LibreSpriteExe -b $file.FullName --sheet $dest --sheet-type horizontal --merge-duplicates
-  if ($LASTEXITCODE -ne 0) {
+  & $LibreSpriteExe -b $file.FullName --sheet $dest --sheet-type horizontal
+  if ($LASTEXITCODE -ne 0 -and -not (Test-Path -LiteralPath $dest)) {
     throw "LibreSprite export failed for $($file.FullName)"
   }
   Write-Host "Exported $pngName"
