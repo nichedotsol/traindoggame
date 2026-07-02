@@ -667,7 +667,7 @@ def main() -> None:
     )
 
     for passenger in PASSENGERS:
-        manifest["sheets"][passenger] = save_sheet(
+        manifest["sheets"][f"passenger_{passenger}"] = save_sheet(
             f"passenger_{passenger}",
             44,
             50,
@@ -676,7 +676,7 @@ def main() -> None:
         )
 
     for collectible in ["gold_whistle", "silver_bone", "rainbow_ticket", "star_coin"]:
-        manifest["sheets"][collectible] = save_sheet(
+        manifest["sheets"][f"collectible_{collectible}"] = save_sheet(
             f"collectible_{collectible}",
             30,
             28,
@@ -697,7 +697,7 @@ def main() -> None:
         "meteor",
         "crater",
     ]:
-        manifest["sheets"][hazard] = save_sheet(
+        manifest["sheets"][f"hazard_{hazard}"] = save_sheet(
             f"hazard_{hazard}",
             40,
             40,
