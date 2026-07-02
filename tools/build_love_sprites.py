@@ -76,7 +76,7 @@ def main() -> None:
 
     for passenger in base.PASSENGERS:
         for action in ["idle", "walk", "wave", "board", "cheer"]:
-            add("character", passenger, action, 44, 50, base.draw_passenger(passenger))
+            add("character", passenger, action, 44, 50, art.draw_passenger(passenger))
 
     for collectible in ["gold_whistle", "silver_bone", "rainbow_ticket", "star_coin"]:
         for action in ["idle", "spin", "sparkle", "collect"]:
@@ -96,7 +96,7 @@ def main() -> None:
         "crater",
     ]:
         for action in ["idle", "warning", "active", "broken"]:
-            add("hazard", hazard, action, 40, 40, base.draw_hazard(hazard))
+            add("hazard", hazard, action, 40, 40, art.draw_hazard(hazard))
 
     for destination, color in base.PORTALS.items():
         for action in ["closed", "idle", "open", "activate"]:
@@ -137,16 +137,16 @@ def main() -> None:
         "lamp",
         "cloud",
     ]:
-        add("terrain", action, "variant", 32, 32, lambda draw, _action, index, tile=action: base.draw_tile(draw, tile, index))
+        add("terrain", action, "variant", 32, 32, lambda draw, _action, index, tile=action: art.draw_tile(draw, tile, index))
 
     for action in ["puff", "burst", "fade"]:
-        add("fx", "smoke", action, 64, 40, base.draw_smoke)
+        add("fx", "smoke", action, 64, 40, art.draw_smoke)
 
     for action in ["full", "empty", "pulse", "gain", "lose"]:
         add("hud", "heart", action, 32, 32, art.draw_heart)
 
     for action in ["whistle", "bone", "coin", "space_button", "route_marker"]:
-        add("hud", "meter", action, 64, 24, base.draw_ui_meter)
+        add("hud", "meter", action, 64, 24, art.draw_meter)
 
     write_lua_manifest(manifest)
     print(f"Wrote {len(manifest)} LÖVE2D sprite sheets to {OUT}")
