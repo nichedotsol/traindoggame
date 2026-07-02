@@ -6,6 +6,7 @@ const ui = {
   stop: document.querySelector("#stop"),
   whistles: document.querySelector("#whistles"),
   hearts: document.querySelector("#hearts"),
+  heartStrip: document.querySelector("#heart-strip"),
   message: document.querySelector("#message"),
   route: document.querySelector("#route"),
 };
@@ -22,6 +23,8 @@ let lastTime = performance.now();
 let messageTimer = 4;
 let chooTimer = 0;
 let shake = 0;
+let lastHeartCount = 3;
+let heartEffect = { action: "full", until: 0 };
 
 const stops = [
   {
@@ -147,7 +150,19 @@ const stops = [
 ];
 
 const routeNames = stops.map((stop) => stop.name);
-ui.route.innerHTML = routeNames.map((name) => `<span class="route-stop" data-stop="${name}">${name}</span>`).join("");
+const destinationSheetKey = {
+  Forest: "forest",
+  Alps: "mountains",
+  Tokyo: "city",
+  Sahara: "desert",
+  Reef: "ocean",
+  Arctic: "arctic",
+  Orbit: "space",
+  Moon: "moon",
+};
+ui.route.innerHTML = routeNames
+  .map((name) => `<span class="route-stop" data-stop="${name}"><span class="route-icon" aria-hidden="true"></span>${name}</span>`)
+  .join("");
 
 const state = {
   stopIndex: 0,
@@ -171,6 +186,84 @@ const player = {
 
 let levelItems = [];
 let particles = [];
+
+const atlas = {
+  manifest: null,
+  images: new Map(),
+  ready: false,
+};
+
+const npcSheetKey = {
+  ranger: "passenger_conductor",
+  skier: "passenger_sheep_hiker",
+  vendor: "passenger_cool_cat",
+  guide: "passenger_bear_tourist",
+  diver: "passenger_fox_passenger",
+  parka: "passenger_rabbit_passenger",
+  astronaut: "passenger_astronaut",
+  moon: "passenger_frog_friend",
+};
+
+const hazardSheetKey = {
+  pineRock: "hazard_pine_rock",
+  snowBoulder: "hazard_snow_boulder",
+  lantern: "hazard_lantern",
+  cactus: "hazard_cactus",
+  waveCrate: "hazard_wave_crate",
+  iceSpike: "hazard_ice_spike",
+  meteor: "hazard_meteor",
+  crater: "hazard_crater",
+};
+
+const stopSheetKey = {
+  Forest: "forest",
+  Alps: "mountains",
+  Tokyo: "city",
+  Sahara: "desert",
+  Reef: "ocean",
+  Arctic: "arctic",
+  Orbit: "space",
+  Moon: "moon",
+};
+
+async function loadSpriteAtlas() {
+  const response = await fetch("./assets/spritesheets/manifest.json");
+  if (!response.ok) throw new Error(`Could not load sprite manifest: ${response.status}`);
+  atlas.manifest = await response.json();
+  const entries = Object.entries(atlas.manifest.sheets);
+  await Promise.all(
+    entries.map(([key, sheet]) => {
+      return new Promise((resolve, reject) => {
+        const image = new Image();
+        image.onload = () => {
+          atlas.images.set(key, image);
+          resolve();
+        };
+        image.onerror = () => reject(new Error(`Could not load sprite sheet ${sheet.file}`));
+        image.src = `./${sheet.file}`;
+      });
+    })
+  );
+  atlas.ready = true;
+}
+
+function getFrame(sheetKey, action, timeOrFrame = 0) {
+  const sheet = atlas.manifest?.sheets?.[sheetKey];
+  const frames = sheet?.actions?.[action] ?? sheet?.actions?.idle ?? sheet?.actions?.full;
+  if (!frames?.length) return null;
+  const frameIndex = Number.isInteger(timeOrFrame)
+    ? timeOrFrame % frames.length
+    : Math.floor(timeOrFrame * 8) % frames.length;
+  return frames[frameIndex];
+}
+
+function drawSheetFrame(sheetKey, action, timeOrFrame, x, y, w, h) {
+  const image = atlas.images.get(sheetKey);
+  const frame = getFrame(sheetKey, action, timeOrFrame);
+  if (!image || !frame) return false;
+  ctx.drawImage(image, frame.x, frame.y, frame.w, frame.h, Math.round(x), Math.round(y), Math.round(w), Math.round(h));
+  return true;
+}
 
 function canvasSprite(w, h, draw) {
   const c = document.createElement("canvas");
@@ -429,9 +522,39 @@ function updateRoute() {
   ui.stop.textContent = stops[state.stopIndex].name;
   ui.whistles.textContent = String(state.whistles).padStart(2, "0");
   ui.hearts.textContent = String(state.hearts);
+  ui.heartStrip.setAttribute("aria-label", `${state.hearts} hearts`);
+  if (state.hearts < lastHeartCount) heartEffect = { action: "lose", until: performance.now() + 700 };
+  if (state.hearts > lastHeartCount) heartEffect = { action: "gain", until: performance.now() + 700 };
+  lastHeartCount = state.hearts;
   document.querySelectorAll(".route-stop").forEach((el, index) => {
     el.classList.toggle("is-done", index < state.stopIndex);
     el.classList.toggle("is-current", index === state.stopIndex);
+  });
+}
+
+function renderUiSprites(time) {
+  const heartFrame = Math.floor(time * 8) % 4;
+  ui.heartStrip.innerHTML = "";
+  for (let i = 0; i < 3; i += 1) {
+    const heart = document.createElement("span");
+    heart.className = "heart-sprite";
+    const isFilled = i < state.hearts;
+    let action = isFilled ? "full" : "empty";
+    if (performance.now() < heartEffect.until && (i === state.hearts || i === state.hearts - 1)) action = heartEffect.action;
+    if (isFilled && state.status === "playing" && i === state.hearts - 1) action = "pulse";
+    const frame = getFrame("ui_hearts", action, heartFrame) ?? { x: 0, y: 0 };
+    heart.style.backgroundPosition = `-${frame.x}px -${frame.y}px`;
+    ui.heartStrip.appendChild(heart);
+  }
+
+  document.querySelectorAll(".route-stop").forEach((el, index) => {
+    const icon = el.querySelector(".route-icon");
+    const routeName = el.getAttribute("data-stop");
+    const key = `destination_${destinationSheetKey[routeName]}`;
+    const action = index < state.stopIndex ? "complete" : index === state.stopIndex ? "selected" : "idle";
+    const frame = getFrame(key, action, Math.floor(time * 4)) ?? { x: 0, y: 0 };
+    icon.style.backgroundImage = `url("./assets/spritesheets/${key}.png")`;
+    icon.style.backgroundPosition = `-${frame.x}px -${frame.y}px`;
   });
 }
 
@@ -443,6 +566,8 @@ function resetGame() {
   state.hearts = 3;
   state.status = "ready";
   state.won = false;
+  lastHeartCount = state.hearts;
+  heartEffect = { action: "full", until: 0 };
   player.y = GROUND;
   player.vy = 0;
   player.grounded = true;
@@ -478,7 +603,7 @@ function hurt() {
   shake = 8;
   updateRoute();
   for (let i = 0; i < 14; i += 1) {
-    particles.push({ x: player.x + 32, y: player.y - 24, vx: -40 + Math.random() * 80, vy: -90 + Math.random() * 60, life: 0.55, color: "#ff6e7d" });
+    particles.push({ kind: "hurt", x: player.x + 32, y: player.y - 24, vx: -40 + Math.random() * 80, vy: -90 + Math.random() * 60, life: 0.55, color: "#ff6e7d" });
   }
   if (state.hearts <= 0) {
     state.status = "lost";
@@ -499,7 +624,7 @@ function choo() {
     player.grounded = false;
   }
   for (let i = 0; i < 9; i += 1) {
-    particles.push({ x: player.x + 36, y: player.y - 50, vx: -45 - Math.random() * 38, vy: -15 - Math.random() * 34, life: 0.75, color: i % 2 ? "#eef7ff" : "#c6d3dc" });
+    particles.push({ kind: i % 3 === 0 ? "burst" : "puff", x: player.x + 36, y: player.y - 50, vx: -45 - Math.random() * 38, vy: -15 - Math.random() * 34, life: 0.75, color: i % 2 ? "#eef7ff" : "#c6d3dc" });
   }
   setMessage("Choo choo choo!", `${stops[state.stopIndex].name} rails are singing`, 0.9);
 }
@@ -623,6 +748,12 @@ function drawGround(stop, progress) {
   }
 }
 
+function drawEnvironmentFromSheet(stop, time) {
+  const key = `environment_${stopSheetKey[stop.name]}`;
+  const action = shake > 1 ? "danger_shake" : state.distance < 55 && state.status === "playing" ? "arrival_flash" : "full_scroll";
+  return drawSheetFrame(key, action, time, 0, 0, W, H);
+}
+
 function drawStationSign(stop) {
   px(ctx, 12, 86, 58, 35, "#111018");
   px(ctx, 15, 89, 52, 29, "#6b4b34");
@@ -650,14 +781,16 @@ function drawChooText() {
 function drawItem(item, screenX, time) {
   if (item.type === "whistle" && !item.taken) {
     const bob = Math.sin(time * 7 + item.x) * 4;
-    ctx.drawImage(sprites.whistle, screenX, item.y + bob, 22, 18);
+    drawSheetFrame("collectible_gold_whistle", "spin", time, screenX, item.y + bob, 30, 28);
   }
   if (item.type === "hazard") {
-    ctx.drawImage(sprites.hazards[item.kind], screenX, item.y - 35, 40, 40);
+    const action = Math.sin(time * 6 + item.x) > 0.72 ? "warning" : "active";
+    drawSheetFrame(hazardSheetKey[item.kind], action, time, screenX, item.y - 35, 40, 40);
   }
   if (item.type === "npc") {
     const bob = Math.sin(time * 4 + item.x) * 2;
-    ctx.drawImage(sprites.npcs[item.kind], screenX, item.y - 44 + bob, 38, 48);
+    const action = item.greeted ? "cheer" : Math.abs(screenX - player.x) < 55 ? "wave" : "idle";
+    drawSheetFrame(npcSheetKey[item.kind], action, time, screenX, item.y - 46 + bob, 44, 50);
     if (!item.greeted && Math.abs(screenX - player.x) < 55) {
       px(ctx, screenX + 22, item.y - 61, 12, 12, "#111018");
       px(ctx, screenX + 24, item.y - 59, 8, 7, "#fff3cf");
@@ -666,7 +799,7 @@ function drawItem(item, screenX, time) {
   }
   if (item.type === "portal") {
     const pulse = Math.sin(time * 6) * 2;
-    ctx.drawImage(sprites.portals[item.stop], screenX, item.y - 68 + pulse, 56, 70);
+    drawSheetFrame(`portal_${stopSheetKey[item.stop]}`, "open", time, screenX, item.y - 68 + pulse, 56, 70);
   }
 }
 
@@ -717,7 +850,7 @@ function update(dt) {
         item.taken = true;
         state.whistles += 1;
         updateRoute();
-        particles.push({ x: sx + 10, y: item.y, vx: 10, vy: -55, life: 0.45, color: "#f7b941" });
+        particles.push({ kind: "spark", x: sx + 10, y: item.y, vx: 10, vy: -55, life: 0.45, color: "#f7b941" });
       }
     }
     if (item.type === "hazard") {
@@ -739,6 +872,7 @@ function update(dt) {
 }
 
 function render(time) {
+  renderUiSprites(time);
   ctx.save();
   ctx.setTransform(SCALE, 0, 0, SCALE, 0, 0);
   const stop = stops[state.stopIndex];
@@ -746,10 +880,12 @@ function render(time) {
   const bumpY = shake > 0 ? (Math.random() - 0.5) * shake * 0.5 : 0;
   ctx.translate(bumpX, bumpY);
 
-  drawSky(stop, state.distance);
-  drawLandmark(stop, state.distance);
+  if (!drawEnvironmentFromSheet(stop, time)) {
+    drawSky(stop, state.distance);
+    drawLandmark(stop, state.distance);
+    drawGround(stop, state.distance);
+  }
   drawStationSign(stop);
-  drawGround(stop, state.distance);
 
   for (const item of levelItems) {
     const sx = item.x - state.distance + PLAYER_X;
@@ -758,16 +894,26 @@ function render(time) {
 
   particles.forEach((p) => {
     ctx.globalAlpha = Math.max(0, Math.min(1, p.life * 2));
-    px(ctx, p.x, p.y, 3, 3, p.color);
+    if (p.kind === "hurt") {
+      drawSheetFrame("ui_hearts", "lose", time, p.x, p.y, 16, 16);
+    } else if (p.kind === "spark") {
+      drawSheetFrame("collectible_star_coin", "sparkle", time, p.x, p.y, 18, 18);
+    } else {
+      drawSheetFrame("fx_smoke", p.kind === "burst" ? "burst" : "puff", time, p.x, p.y, 32, 20);
+    }
     ctx.globalAlpha = 1;
   });
 
-  let trainFrame = "idle";
-  if (!player.grounded) trainFrame = "jump";
-  else if (player.ducking) trainFrame = "duck";
-  else if (state.status === "playing") trainFrame = Math.floor(time * 10) % 2 ? "runA" : "runB";
+  let trainAction = "idle";
+  if (!player.grounded) trainAction = player.vy > 90 ? "land" : "jump";
+  else if (player.ducking) trainAction = "duck";
+  else if (player.invulnerable > 0) trainAction = "hurt";
+  else if (chooTimer > 0) trainAction = "cheer";
+  else if (state.status === "playing") trainAction = "move";
   if (player.invulnerable > 0 && Math.floor(time * 18) % 2 === 0) ctx.globalAlpha = 0.45;
-  ctx.drawImage(sprites.train[trainFrame], player.x, player.y - 55, 92, 58);
+  if (!drawSheetFrame("train_dog", trainAction, time, player.x, player.y - 55, 92, 58)) {
+    ctx.drawImage(sprites.train.idle, player.x, player.y - 55, 92, 58);
+  }
   ctx.globalAlpha = 1;
   drawChooText();
 
@@ -791,5 +937,12 @@ function loop(now) {
   requestAnimationFrame(loop);
 }
 
-resetGame();
-requestAnimationFrame(loop);
+loadSpriteAtlas()
+  .then(() => {
+    resetGame();
+    requestAnimationFrame(loop);
+  })
+  .catch((error) => {
+    console.error(error);
+    setMessage("Sprite atlas failed", "Check assets/spritesheets/manifest.json", 99);
+  });

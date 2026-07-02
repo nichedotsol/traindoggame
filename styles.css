@@ -130,6 +130,34 @@ p {
   text-shadow: 3px 3px 0 #111;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.heart-strip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  min-height: 34px;
+}
+
+.heart-sprite {
+  width: 32px;
+  height: 32px;
+  image-rendering: pixelated;
+  background-image: url("./assets/spritesheets/ui_hearts.png");
+  background-repeat: no-repeat;
+  background-size: 128px 160px;
+}
+
 .screen-wrap {
   position: relative;
   min-height: 0;
@@ -237,28 +265,19 @@ kbd {
   font-size: 11px;
 }
 
-.route-stop::before {
-  content: "";
+.route-icon {
   display: block;
-  width: 20px;
-  height: 20px;
+  width: 48px;
+  height: 32px;
   margin: 0 auto 4px;
-  background: #4c4057;
-  border: 3px solid #111;
+  image-rendering: pixelated;
+  background-repeat: no-repeat;
+  background-size: 192px 96px;
 }
 
 .route-stop.is-done,
 .route-stop.is-current {
   color: var(--cream);
-}
-
-.route-stop.is-done::before {
-  background: var(--mint);
-}
-
-.route-stop.is-current::before {
-  background: var(--gold);
-  box-shadow: 0 0 14px rgba(247, 185, 65, 0.78);
 }
 
 @media (max-width: 860px) {
