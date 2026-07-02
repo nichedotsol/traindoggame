@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="TrainDog: a pixel side-scroller where Space makes the dog train choo through world destinations to the moon."
+    />
+    <title>TrainDog: Moon Line</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="arcade" aria-label="TrainDog Moon Line">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-sprite" aria-hidden="true"></span>
+          <div>
+            <h1>TrainDog: Moon Line</h1>
+            <p>Space to choo. Collect whistles. Final stop: the moon.</p>
+          </div>
+        </div>
+        <div class="stat">
+          <span>Stop</span>
+          <strong id="stop">Forest</strong>
+        </div>
+        <div class="stat">
+          <span>Whistles</span>
+          <strong id="whistles">00</strong>
+        </div>
+        <div class="stat">
+          <span>Hearts</span>
+          <strong id="hearts">3</strong>
+        </div>
+      </header>
+
+      <section class="screen-wrap" aria-label="Playable game">
+        <canvas id="game" width="960" height="540" aria-label="TrainDog playable side scroller"></canvas>
+        <div class="scanlines" aria-hidden="true"></div>
+        <div id="message" class="message" role="status" aria-live="polite">
+          <strong>Ready to depart</strong>
+          <span>Press Space to choo choo choo</span>
+        </div>
+      </section>
+
+      <footer class="controls" aria-label="Controls and trip status">
+        <div class="keys"><span>Choo / jump</span><kbd>Space</kbd></div>
+        <div class="keys"><span>Duck</span><kbd>Down</kbd></div>
+        <div class="keys"><span>Restart</span><kbd>R</kbd></div>
+        <div class="route" id="route" aria-label="Route progress"></div>
+      </footer>
+    </main>
+
+    <script type="module" src="./src/game.js"></script>
+  </body>
+</html>
