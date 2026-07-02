@@ -1,0 +1,8184 @@
+{
+  "schema": "traindog-spritesheet-manifest/v1",
+  "pixelScale": 1,
+  "sheets": {
+    "train_dog": {
+      "file": "assets/spritesheets/train_dog.png",
+      "frameSize": {
+        "w": 92,
+        "h": 58
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          },
+          {
+            "x": 92,
+            "y": 0,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          },
+          {
+            "x": 184,
+            "y": 0,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          },
+          {
+            "x": 276,
+            "y": 0,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          }
+        ],
+        "move": [
+          {
+            "x": 0,
+            "y": 58,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          },
+          {
+            "x": 92,
+            "y": 58,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          },
+          {
+            "x": 184,
+            "y": 58,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          },
+          {
+            "x": 276,
+            "y": 58,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          }
+        ],
+        "jump": [
+          {
+            "x": 0,
+            "y": 116,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          },
+          {
+            "x": 92,
+            "y": 116,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          },
+          {
+            "x": 184,
+            "y": 116,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          },
+          {
+            "x": 276,
+            "y": 116,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          }
+        ],
+        "land": [
+          {
+            "x": 0,
+            "y": 174,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          },
+          {
+            "x": 92,
+            "y": 174,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          },
+          {
+            "x": 184,
+            "y": 174,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          },
+          {
+            "x": 276,
+            "y": 174,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          }
+        ],
+        "duck": [
+          {
+            "x": 0,
+            "y": 232,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          },
+          {
+            "x": 92,
+            "y": 232,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          },
+          {
+            "x": 184,
+            "y": 232,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          },
+          {
+            "x": 276,
+            "y": 232,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          }
+        ],
+        "hurt": [
+          {
+            "x": 0,
+            "y": 290,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          },
+          {
+            "x": 92,
+            "y": 290,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          },
+          {
+            "x": 184,
+            "y": 290,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          },
+          {
+            "x": 276,
+            "y": 290,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          }
+        ],
+        "cheer": [
+          {
+            "x": 0,
+            "y": 348,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          },
+          {
+            "x": 92,
+            "y": 348,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          },
+          {
+            "x": 184,
+            "y": 348,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          },
+          {
+            "x": 276,
+            "y": 348,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          }
+        ],
+        "board": [
+          {
+            "x": 0,
+            "y": 406,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          },
+          {
+            "x": 92,
+            "y": 406,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          },
+          {
+            "x": 184,
+            "y": 406,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          },
+          {
+            "x": 276,
+            "y": 406,
+            "w": 92,
+            "h": 58,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "conductor": {
+      "file": "assets/spritesheets/passenger_conductor.png",
+      "frameSize": {
+        "w": 44,
+        "h": 50
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "walk": [
+          {
+            "x": 0,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "wave": [
+          {
+            "x": 0,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "board": [
+          {
+            "x": 0,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "cheer": [
+          {
+            "x": 0,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "fox_passenger": {
+      "file": "assets/spritesheets/passenger_fox_passenger.png",
+      "frameSize": {
+        "w": 44,
+        "h": 50
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "walk": [
+          {
+            "x": 0,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "wave": [
+          {
+            "x": 0,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "board": [
+          {
+            "x": 0,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "cheer": [
+          {
+            "x": 0,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "rabbit_passenger": {
+      "file": "assets/spritesheets/passenger_rabbit_passenger.png",
+      "frameSize": {
+        "w": 44,
+        "h": 50
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "walk": [
+          {
+            "x": 0,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "wave": [
+          {
+            "x": 0,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "board": [
+          {
+            "x": 0,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "cheer": [
+          {
+            "x": 0,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "cool_cat": {
+      "file": "assets/spritesheets/passenger_cool_cat.png",
+      "frameSize": {
+        "w": 44,
+        "h": 50
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "walk": [
+          {
+            "x": 0,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "wave": [
+          {
+            "x": 0,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "board": [
+          {
+            "x": 0,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "cheer": [
+          {
+            "x": 0,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "bear_tourist": {
+      "file": "assets/spritesheets/passenger_bear_tourist.png",
+      "frameSize": {
+        "w": 44,
+        "h": 50
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "walk": [
+          {
+            "x": 0,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "wave": [
+          {
+            "x": 0,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "board": [
+          {
+            "x": 0,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "cheer": [
+          {
+            "x": 0,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "frog_friend": {
+      "file": "assets/spritesheets/passenger_frog_friend.png",
+      "frameSize": {
+        "w": 44,
+        "h": 50
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "walk": [
+          {
+            "x": 0,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "wave": [
+          {
+            "x": 0,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "board": [
+          {
+            "x": 0,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "cheer": [
+          {
+            "x": 0,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "sheep_hiker": {
+      "file": "assets/spritesheets/passenger_sheep_hiker.png",
+      "frameSize": {
+        "w": 44,
+        "h": 50
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "walk": [
+          {
+            "x": 0,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "wave": [
+          {
+            "x": 0,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "board": [
+          {
+            "x": 0,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "cheer": [
+          {
+            "x": 0,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "astronaut": {
+      "file": "assets/spritesheets/passenger_astronaut.png",
+      "frameSize": {
+        "w": 44,
+        "h": 50
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 0,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "walk": [
+          {
+            "x": 0,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 50,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "wave": [
+          {
+            "x": 0,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 100,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "board": [
+          {
+            "x": 0,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 150,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ],
+        "cheer": [
+          {
+            "x": 0,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 44,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 88,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          },
+          {
+            "x": 132,
+            "y": 200,
+            "w": 44,
+            "h": 50,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "gold_whistle": {
+      "file": "assets/spritesheets/collectible_gold_whistle.png",
+      "frameSize": {
+        "w": 30,
+        "h": 28
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 30,
+            "y": 0,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 60,
+            "y": 0,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 90,
+            "y": 0,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          }
+        ],
+        "spin": [
+          {
+            "x": 0,
+            "y": 28,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 30,
+            "y": 28,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 60,
+            "y": 28,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 90,
+            "y": 28,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          }
+        ],
+        "sparkle": [
+          {
+            "x": 0,
+            "y": 56,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 30,
+            "y": 56,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 60,
+            "y": 56,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 90,
+            "y": 56,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          }
+        ],
+        "collect": [
+          {
+            "x": 0,
+            "y": 84,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 30,
+            "y": 84,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 60,
+            "y": 84,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 90,
+            "y": 84,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "silver_bone": {
+      "file": "assets/spritesheets/collectible_silver_bone.png",
+      "frameSize": {
+        "w": 30,
+        "h": 28
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 30,
+            "y": 0,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 60,
+            "y": 0,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 90,
+            "y": 0,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          }
+        ],
+        "spin": [
+          {
+            "x": 0,
+            "y": 28,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 30,
+            "y": 28,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 60,
+            "y": 28,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 90,
+            "y": 28,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          }
+        ],
+        "sparkle": [
+          {
+            "x": 0,
+            "y": 56,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 30,
+            "y": 56,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 60,
+            "y": 56,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 90,
+            "y": 56,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          }
+        ],
+        "collect": [
+          {
+            "x": 0,
+            "y": 84,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 30,
+            "y": 84,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 60,
+            "y": 84,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 90,
+            "y": 84,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "rainbow_ticket": {
+      "file": "assets/spritesheets/collectible_rainbow_ticket.png",
+      "frameSize": {
+        "w": 30,
+        "h": 28
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 30,
+            "y": 0,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 60,
+            "y": 0,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 90,
+            "y": 0,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          }
+        ],
+        "spin": [
+          {
+            "x": 0,
+            "y": 28,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 30,
+            "y": 28,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 60,
+            "y": 28,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 90,
+            "y": 28,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          }
+        ],
+        "sparkle": [
+          {
+            "x": 0,
+            "y": 56,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 30,
+            "y": 56,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 60,
+            "y": 56,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 90,
+            "y": 56,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          }
+        ],
+        "collect": [
+          {
+            "x": 0,
+            "y": 84,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 30,
+            "y": 84,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 60,
+            "y": 84,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 90,
+            "y": 84,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "star_coin": {
+      "file": "assets/spritesheets/collectible_star_coin.png",
+      "frameSize": {
+        "w": 30,
+        "h": 28
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 30,
+            "y": 0,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 60,
+            "y": 0,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 90,
+            "y": 0,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          }
+        ],
+        "spin": [
+          {
+            "x": 0,
+            "y": 28,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 30,
+            "y": 28,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 60,
+            "y": 28,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 90,
+            "y": 28,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          }
+        ],
+        "sparkle": [
+          {
+            "x": 0,
+            "y": 56,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 30,
+            "y": 56,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 60,
+            "y": 56,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 90,
+            "y": 56,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          }
+        ],
+        "collect": [
+          {
+            "x": 0,
+            "y": 84,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 30,
+            "y": 84,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 60,
+            "y": 84,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          },
+          {
+            "x": 90,
+            "y": 84,
+            "w": 30,
+            "h": 28,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "spiked_ball": {
+      "file": "assets/spritesheets/hazard_spiked_ball.png",
+      "frameSize": {
+        "w": 40,
+        "h": 40
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "warning": [
+          {
+            "x": 0,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "active": [
+          {
+            "x": 0,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "broken": [
+          {
+            "x": 0,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "boulder": {
+      "file": "assets/spritesheets/hazard_boulder.png",
+      "frameSize": {
+        "w": 40,
+        "h": 40
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "warning": [
+          {
+            "x": 0,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "active": [
+          {
+            "x": 0,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "broken": [
+          {
+            "x": 0,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "cactus": {
+      "file": "assets/spritesheets/hazard_cactus.png",
+      "frameSize": {
+        "w": 40,
+        "h": 40
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "warning": [
+          {
+            "x": 0,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "active": [
+          {
+            "x": 0,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "broken": [
+          {
+            "x": 0,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "crow": {
+      "file": "assets/spritesheets/hazard_crow.png",
+      "frameSize": {
+        "w": 40,
+        "h": 40
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "warning": [
+          {
+            "x": 0,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "active": [
+          {
+            "x": 0,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "broken": [
+          {
+            "x": 0,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "pine_rock": {
+      "file": "assets/spritesheets/hazard_pine_rock.png",
+      "frameSize": {
+        "w": 40,
+        "h": 40
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "warning": [
+          {
+            "x": 0,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "active": [
+          {
+            "x": 0,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "broken": [
+          {
+            "x": 0,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "snow_boulder": {
+      "file": "assets/spritesheets/hazard_snow_boulder.png",
+      "frameSize": {
+        "w": 40,
+        "h": 40
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "warning": [
+          {
+            "x": 0,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "active": [
+          {
+            "x": 0,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "broken": [
+          {
+            "x": 0,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "lantern": {
+      "file": "assets/spritesheets/hazard_lantern.png",
+      "frameSize": {
+        "w": 40,
+        "h": 40
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "warning": [
+          {
+            "x": 0,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "active": [
+          {
+            "x": 0,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "broken": [
+          {
+            "x": 0,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "wave_crate": {
+      "file": "assets/spritesheets/hazard_wave_crate.png",
+      "frameSize": {
+        "w": 40,
+        "h": 40
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "warning": [
+          {
+            "x": 0,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "active": [
+          {
+            "x": 0,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "broken": [
+          {
+            "x": 0,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "ice_spike": {
+      "file": "assets/spritesheets/hazard_ice_spike.png",
+      "frameSize": {
+        "w": 40,
+        "h": 40
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "warning": [
+          {
+            "x": 0,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "active": [
+          {
+            "x": 0,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "broken": [
+          {
+            "x": 0,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "meteor": {
+      "file": "assets/spritesheets/hazard_meteor.png",
+      "frameSize": {
+        "w": 40,
+        "h": 40
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "warning": [
+          {
+            "x": 0,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "active": [
+          {
+            "x": 0,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "broken": [
+          {
+            "x": 0,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "crater": {
+      "file": "assets/spritesheets/hazard_crater.png",
+      "frameSize": {
+        "w": 40,
+        "h": 40
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "warning": [
+          {
+            "x": 0,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "active": [
+          {
+            "x": 0,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "broken": [
+          {
+            "x": 0,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 40,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 80,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 120,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "portal_forest": {
+      "file": "assets/spritesheets/portal_forest.png",
+      "frameSize": {
+        "w": 56,
+        "h": 70
+      },
+      "actions": {
+        "closed": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ],
+        "idle": [
+          {
+            "x": 0,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ],
+        "open": [
+          {
+            "x": 0,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ],
+        "activate": [
+          {
+            "x": 0,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "portal_mountains": {
+      "file": "assets/spritesheets/portal_mountains.png",
+      "frameSize": {
+        "w": 56,
+        "h": 70
+      },
+      "actions": {
+        "closed": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ],
+        "idle": [
+          {
+            "x": 0,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ],
+        "open": [
+          {
+            "x": 0,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ],
+        "activate": [
+          {
+            "x": 0,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "portal_city": {
+      "file": "assets/spritesheets/portal_city.png",
+      "frameSize": {
+        "w": 56,
+        "h": 70
+      },
+      "actions": {
+        "closed": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ],
+        "idle": [
+          {
+            "x": 0,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ],
+        "open": [
+          {
+            "x": 0,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ],
+        "activate": [
+          {
+            "x": 0,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "portal_desert": {
+      "file": "assets/spritesheets/portal_desert.png",
+      "frameSize": {
+        "w": 56,
+        "h": 70
+      },
+      "actions": {
+        "closed": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ],
+        "idle": [
+          {
+            "x": 0,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ],
+        "open": [
+          {
+            "x": 0,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ],
+        "activate": [
+          {
+            "x": 0,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "portal_ocean": {
+      "file": "assets/spritesheets/portal_ocean.png",
+      "frameSize": {
+        "w": 56,
+        "h": 70
+      },
+      "actions": {
+        "closed": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ],
+        "idle": [
+          {
+            "x": 0,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ],
+        "open": [
+          {
+            "x": 0,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ],
+        "activate": [
+          {
+            "x": 0,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "portal_arctic": {
+      "file": "assets/spritesheets/portal_arctic.png",
+      "frameSize": {
+        "w": 56,
+        "h": 70
+      },
+      "actions": {
+        "closed": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ],
+        "idle": [
+          {
+            "x": 0,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ],
+        "open": [
+          {
+            "x": 0,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ],
+        "activate": [
+          {
+            "x": 0,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "portal_space": {
+      "file": "assets/spritesheets/portal_space.png",
+      "frameSize": {
+        "w": 56,
+        "h": 70
+      },
+      "actions": {
+        "closed": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ],
+        "idle": [
+          {
+            "x": 0,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ],
+        "open": [
+          {
+            "x": 0,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ],
+        "activate": [
+          {
+            "x": 0,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "portal_moon": {
+      "file": "assets/spritesheets/portal_moon.png",
+      "frameSize": {
+        "w": 56,
+        "h": 70
+      },
+      "actions": {
+        "closed": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 0,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ],
+        "idle": [
+          {
+            "x": 0,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 70,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ],
+        "open": [
+          {
+            "x": 0,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 140,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ],
+        "activate": [
+          {
+            "x": 0,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 56,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 112,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          },
+          {
+            "x": 168,
+            "y": 210,
+            "w": 56,
+            "h": 70,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "terrain_tiles": {
+      "file": "assets/spritesheets/terrain_tiles.png",
+      "frameSize": {
+        "w": 32,
+        "h": 32
+      },
+      "actions": {
+        "grass": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 32,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "stone": [
+          {
+            "x": 0,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 32,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "bush": [
+          {
+            "x": 0,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 32,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "rail": [
+          {
+            "x": 0,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 32,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "wood": [
+          {
+            "x": 0,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 32,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "water": [
+          {
+            "x": 0,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 32,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "sand": [
+          {
+            "x": 0,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 32,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "ice": [
+          {
+            "x": 0,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 32,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "flower": [
+          {
+            "x": 0,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 32,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "mushroom": [
+          {
+            "x": 0,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 32,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "rock": [
+          {
+            "x": 0,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 32,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "crate": [
+          {
+            "x": 0,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 32,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "barrel": [
+          {
+            "x": 0,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 32,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "sign": [
+          {
+            "x": 0,
+            "y": 416,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 32,
+            "y": 416,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 416,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 416,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "lamp": [
+          {
+            "x": 0,
+            "y": 448,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 32,
+            "y": 448,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 448,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 448,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "cloud": [
+          {
+            "x": 0,
+            "y": 480,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 32,
+            "y": 480,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 480,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 480,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "destination_forest": {
+      "file": "assets/spritesheets/destination_forest.png",
+      "frameSize": {
+        "w": 48,
+        "h": 32
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 48,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 144,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "selected": [
+          {
+            "x": 0,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 48,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 144,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "complete": [
+          {
+            "x": 0,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 48,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 144,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "destination_mountains": {
+      "file": "assets/spritesheets/destination_mountains.png",
+      "frameSize": {
+        "w": 48,
+        "h": 32
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 48,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 144,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "selected": [
+          {
+            "x": 0,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 48,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 144,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "complete": [
+          {
+            "x": 0,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 48,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 144,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "destination_city": {
+      "file": "assets/spritesheets/destination_city.png",
+      "frameSize": {
+        "w": 48,
+        "h": 32
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 48,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 144,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "selected": [
+          {
+            "x": 0,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 48,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 144,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "complete": [
+          {
+            "x": 0,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 48,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 144,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "destination_desert": {
+      "file": "assets/spritesheets/destination_desert.png",
+      "frameSize": {
+        "w": 48,
+        "h": 32
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 48,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 144,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "selected": [
+          {
+            "x": 0,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 48,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 144,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "complete": [
+          {
+            "x": 0,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 48,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 144,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "destination_ocean": {
+      "file": "assets/spritesheets/destination_ocean.png",
+      "frameSize": {
+        "w": 48,
+        "h": 32
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 48,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 144,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "selected": [
+          {
+            "x": 0,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 48,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 144,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "complete": [
+          {
+            "x": 0,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 48,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 144,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "destination_arctic": {
+      "file": "assets/spritesheets/destination_arctic.png",
+      "frameSize": {
+        "w": 48,
+        "h": 32
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 48,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 144,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "selected": [
+          {
+            "x": 0,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 48,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 144,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "complete": [
+          {
+            "x": 0,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 48,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 144,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "destination_space": {
+      "file": "assets/spritesheets/destination_space.png",
+      "frameSize": {
+        "w": 48,
+        "h": 32
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 48,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 144,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "selected": [
+          {
+            "x": 0,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 48,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 144,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "complete": [
+          {
+            "x": 0,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 48,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 144,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "destination_moon": {
+      "file": "assets/spritesheets/destination_moon.png",
+      "frameSize": {
+        "w": 48,
+        "h": 32
+      },
+      "actions": {
+        "idle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 48,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 144,
+            "y": 0,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "selected": [
+          {
+            "x": 0,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 48,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 144,
+            "y": 32,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "complete": [
+          {
+            "x": 0,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 48,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 144,
+            "y": 64,
+            "w": 48,
+            "h": 32,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "environment_forest": {
+      "file": "assets/spritesheets/environment_forest.png",
+      "frameSize": {
+        "w": 320,
+        "h": 180
+      },
+      "actions": {
+        "cloud_drift": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "parallax_far": [
+          {
+            "x": 0,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "parallax_mid": [
+          {
+            "x": 0,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "parallax_near": [
+          {
+            "x": 0,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "rail_scroll": [
+          {
+            "x": 0,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "full_scroll": [
+          {
+            "x": 0,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "arrival_flash": [
+          {
+            "x": 0,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "danger_shake": [
+          {
+            "x": 0,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "environment_mountains": {
+      "file": "assets/spritesheets/environment_mountains.png",
+      "frameSize": {
+        "w": 320,
+        "h": 180
+      },
+      "actions": {
+        "cloud_drift": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "parallax_far": [
+          {
+            "x": 0,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "parallax_mid": [
+          {
+            "x": 0,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "parallax_near": [
+          {
+            "x": 0,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "rail_scroll": [
+          {
+            "x": 0,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "full_scroll": [
+          {
+            "x": 0,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "arrival_flash": [
+          {
+            "x": 0,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "danger_shake": [
+          {
+            "x": 0,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "environment_city": {
+      "file": "assets/spritesheets/environment_city.png",
+      "frameSize": {
+        "w": 320,
+        "h": 180
+      },
+      "actions": {
+        "cloud_drift": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "parallax_far": [
+          {
+            "x": 0,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "parallax_mid": [
+          {
+            "x": 0,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "parallax_near": [
+          {
+            "x": 0,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "rail_scroll": [
+          {
+            "x": 0,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "full_scroll": [
+          {
+            "x": 0,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "arrival_flash": [
+          {
+            "x": 0,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "danger_shake": [
+          {
+            "x": 0,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "environment_desert": {
+      "file": "assets/spritesheets/environment_desert.png",
+      "frameSize": {
+        "w": 320,
+        "h": 180
+      },
+      "actions": {
+        "cloud_drift": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "parallax_far": [
+          {
+            "x": 0,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "parallax_mid": [
+          {
+            "x": 0,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "parallax_near": [
+          {
+            "x": 0,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "rail_scroll": [
+          {
+            "x": 0,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "full_scroll": [
+          {
+            "x": 0,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "arrival_flash": [
+          {
+            "x": 0,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "danger_shake": [
+          {
+            "x": 0,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "environment_ocean": {
+      "file": "assets/spritesheets/environment_ocean.png",
+      "frameSize": {
+        "w": 320,
+        "h": 180
+      },
+      "actions": {
+        "cloud_drift": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "parallax_far": [
+          {
+            "x": 0,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "parallax_mid": [
+          {
+            "x": 0,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "parallax_near": [
+          {
+            "x": 0,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "rail_scroll": [
+          {
+            "x": 0,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "full_scroll": [
+          {
+            "x": 0,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "arrival_flash": [
+          {
+            "x": 0,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "danger_shake": [
+          {
+            "x": 0,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "environment_arctic": {
+      "file": "assets/spritesheets/environment_arctic.png",
+      "frameSize": {
+        "w": 320,
+        "h": 180
+      },
+      "actions": {
+        "cloud_drift": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "parallax_far": [
+          {
+            "x": 0,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "parallax_mid": [
+          {
+            "x": 0,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "parallax_near": [
+          {
+            "x": 0,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "rail_scroll": [
+          {
+            "x": 0,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "full_scroll": [
+          {
+            "x": 0,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "arrival_flash": [
+          {
+            "x": 0,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "danger_shake": [
+          {
+            "x": 0,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "environment_space": {
+      "file": "assets/spritesheets/environment_space.png",
+      "frameSize": {
+        "w": 320,
+        "h": 180
+      },
+      "actions": {
+        "cloud_drift": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "parallax_far": [
+          {
+            "x": 0,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "parallax_mid": [
+          {
+            "x": 0,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "parallax_near": [
+          {
+            "x": 0,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "rail_scroll": [
+          {
+            "x": 0,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "full_scroll": [
+          {
+            "x": 0,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "arrival_flash": [
+          {
+            "x": 0,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "danger_shake": [
+          {
+            "x": 0,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "environment_moon": {
+      "file": "assets/spritesheets/environment_moon.png",
+      "frameSize": {
+        "w": 320,
+        "h": 180
+      },
+      "actions": {
+        "cloud_drift": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 0,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "parallax_far": [
+          {
+            "x": 0,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 180,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "parallax_mid": [
+          {
+            "x": 0,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 360,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "parallax_near": [
+          {
+            "x": 0,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 540,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "rail_scroll": [
+          {
+            "x": 0,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 720,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "full_scroll": [
+          {
+            "x": 0,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 900,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "arrival_flash": [
+          {
+            "x": 0,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 1080,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ],
+        "danger_shake": [
+          {
+            "x": 0,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 320,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 640,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          },
+          {
+            "x": 960,
+            "y": 1260,
+            "w": 320,
+            "h": 180,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "fx_smoke": {
+      "file": "assets/spritesheets/fx_smoke.png",
+      "frameSize": {
+        "w": 64,
+        "h": 40
+      },
+      "actions": {
+        "puff": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 64,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 0,
+            "w": 64,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 128,
+            "y": 0,
+            "w": 64,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 192,
+            "y": 0,
+            "w": 64,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "burst": [
+          {
+            "x": 0,
+            "y": 40,
+            "w": 64,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 40,
+            "w": 64,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 128,
+            "y": 40,
+            "w": 64,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 192,
+            "y": 40,
+            "w": 64,
+            "h": 40,
+            "durationMs": 120
+          }
+        ],
+        "fade": [
+          {
+            "x": 0,
+            "y": 80,
+            "w": 64,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 80,
+            "w": 64,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 128,
+            "y": 80,
+            "w": 64,
+            "h": 40,
+            "durationMs": 120
+          },
+          {
+            "x": 192,
+            "y": 80,
+            "w": 64,
+            "h": 40,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "ui_hearts": {
+      "file": "assets/spritesheets/ui_hearts.png",
+      "frameSize": {
+        "w": 32,
+        "h": 32
+      },
+      "actions": {
+        "full": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 32,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "empty": [
+          {
+            "x": 0,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 32,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "pulse": [
+          {
+            "x": 0,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 32,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "gain": [
+          {
+            "x": 0,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 32,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          }
+        ],
+        "lose": [
+          {
+            "x": 0,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 32,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          },
+          {
+            "x": 96,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "durationMs": 120
+          }
+        ]
+      }
+    },
+    "ui_meters": {
+      "file": "assets/spritesheets/ui_meters.png",
+      "frameSize": {
+        "w": 64,
+        "h": 24
+      },
+      "actions": {
+        "whistle": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 64,
+            "h": 24,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 0,
+            "w": 64,
+            "h": 24,
+            "durationMs": 120
+          },
+          {
+            "x": 128,
+            "y": 0,
+            "w": 64,
+            "h": 24,
+            "durationMs": 120
+          },
+          {
+            "x": 192,
+            "y": 0,
+            "w": 64,
+            "h": 24,
+            "durationMs": 120
+          }
+        ],
+        "bone": [
+          {
+            "x": 0,
+            "y": 24,
+            "w": 64,
+            "h": 24,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 24,
+            "w": 64,
+            "h": 24,
+            "durationMs": 120
+          },
+          {
+            "x": 128,
+            "y": 24,
+            "w": 64,
+            "h": 24,
+            "durationMs": 120
+          },
+          {
+            "x": 192,
+            "y": 24,
+            "w": 64,
+            "h": 24,
+            "durationMs": 120
+          }
+        ],
+        "coin": [
+          {
+            "x": 0,
+            "y": 48,
+            "w": 64,
+            "h": 24,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 48,
+            "w": 64,
+            "h": 24,
+            "durationMs": 120
+          },
+          {
+            "x": 128,
+            "y": 48,
+            "w": 64,
+            "h": 24,
+            "durationMs": 120
+          },
+          {
+            "x": 192,
+            "y": 48,
+            "w": 64,
+            "h": 24,
+            "durationMs": 120
+          }
+        ],
+        "space_button": [
+          {
+            "x": 0,
+            "y": 72,
+            "w": 64,
+            "h": 24,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 72,
+            "w": 64,
+            "h": 24,
+            "durationMs": 120
+          },
+          {
+            "x": 128,
+            "y": 72,
+            "w": 64,
+            "h": 24,
+            "durationMs": 120
+          },
+          {
+            "x": 192,
+            "y": 72,
+            "w": 64,
+            "h": 24,
+            "durationMs": 120
+          }
+        ],
+        "route_marker": [
+          {
+            "x": 0,
+            "y": 96,
+            "w": 64,
+            "h": 24,
+            "durationMs": 120
+          },
+          {
+            "x": 64,
+            "y": 96,
+            "w": 64,
+            "h": 24,
+            "durationMs": 120
+          },
+          {
+            "x": 128,
+            "y": 96,
+            "w": 64,
+            "h": 24,
+            "durationMs": 120
+          },
+          {
+            "x": 192,
+            "y": 96,
+            "w": 64,
+            "h": 24,
+            "durationMs": 120
+          }
+        ]
+      }
+    }
+  }
+}
