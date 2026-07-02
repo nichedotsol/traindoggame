@@ -23,19 +23,44 @@ Controls:
 - `conf.lua`: LÖVE2D window/app config
 - `src/atlas.lua`: sprite sheet loader and animation helper
 - `src/world.lua`: destination, passenger, and hazard data
-- `assets/love_sprites/`: primary LÖVE2D sprite atlas, with 257 individual PNG sprite sheets
+- `assets/libresprite/`: production source-art workspace for hand-drawn LibreSprite files
+- `assets/love_sprites/`: primary LÖVE2D runtime atlas, with 257 individual PNG sprite sheets
 - `assets/love_sprites/manifest.lua`: generated Lua manifest consumed by the game
-- `tools/build_love_sprites.py`: regenerates the LÖVE2D sprite atlas
+- `tools/export_libresprite_sprites.ps1`: exports LibreSprite `.ase` / `.aseprite` source files into runtime PNG sheets
+- `tools/libresprite_manifest_check.py`: reports which manifest sheets still need LibreSprite source art
+- `tools/build_love_sprites.py`: regenerates placeholder/runtime LÖVE2D sprite sheets
 
 The old `index.html` browser version remains in the repo only as a static deployment artifact. The LÖVE2D version is the primary game.
 
 ## Art
 
-The game uses original code-authored pixel sprites and canvas scenery for every destination, obstacle, NPC, collectible, portal, and TrainDog animation frame. The concept reference is saved at `assets/traindog-concept.png`.
+Production-quality art should be hand-drawn in LibreSprite. The generated PNG sheets in `assets/love_sprites/` are runtime exports and placeholders until a matching `.ase` or `.aseprite` source file exists in `assets/libresprite/`.
+
+LibreSprite source filenames must match runtime PNG filenames:
+
+```text
+assets/libresprite/characters/character_train_dog_move.aseprite
+assets/love_sprites/character_train_dog_move.png
+```
+
+See `assets/libresprite/ART_DIRECTION.md` for the pixel-art quality bar.
+
+Export hand-drawn LibreSprite sources into runtime sheets with:
+
+```powershell
+$env:LIBRESPRITE_EXE = "C:\path\to\libresprite.exe"
+.\tools\export_libresprite_sprites.ps1
+```
+
+Check source-art coverage with:
+
+```powershell
+python tools/libresprite_manifest_check.py
+```
 
 ## Sprite Sheets
 
-Full transparent PNG sprite sheets live in `assets/spritesheets/`.
+Legacy browser sprite sheets live in `assets/spritesheets/`.
 
 Generate them with:
 
@@ -47,7 +72,7 @@ The generated `assets/spritesheets/manifest.json` lists every sheet, frame size,
 
 See `assets/spritesheets/SPRITE_COVERAGE.md` for the complete coverage map.
 
-Generate the primary LÖVE2D sheets with:
+Generate placeholder LÖVE2D sheets with:
 
 ```powershell
 python tools/build_love_sprites.py
