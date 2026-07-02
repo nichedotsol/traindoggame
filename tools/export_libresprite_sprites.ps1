@@ -13,13 +13,21 @@ if (-not $LibreSpriteExe) {
   }
 }
 
+if (-not $LibreSpriteExe) {
+  $knownLocalInstall = "C:\Users\ball1\Documents\Codex\libresprite-development-windows-x86_64\libresprite.exe"
+  if (Test-Path -LiteralPath $knownLocalInstall) {
+    $LibreSpriteExe = $knownLocalInstall
+  }
+}
+
 if (-not $LibreSpriteExe -or -not (Test-Path -LiteralPath $LibreSpriteExe)) {
   throw "LibreSprite executable not found. Set LIBRESPRITE_EXE to the full path of libresprite.exe, then rerun this script."
 }
 
 $sourcePath = Resolve-Path -LiteralPath $SourceRoot
 $outputPath = Resolve-Path -LiteralPath $OutputRoot
-$files = Get-ChildItem -LiteralPath $sourcePath.Path -Recurse -Include *.ase,*.aseprite
+$files = Get-ChildItem -LiteralPath $sourcePath.Path -Recurse -File |
+  Where-Object { $_.Extension -in ".ase", ".aseprite" }
 
 if (-not $files) {
   Write-Host "No LibreSprite source files found under $($sourcePath.Path)."
